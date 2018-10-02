@@ -29,8 +29,5 @@ mv ~/Library/Safari ~/Desktop/Safari-`date +%Y%m%d%H%M%S`; \
   rm -Rf ~/Library/PubSub/Database; \
   rm -Rf ~/Library/Saved\ Application\ State/com.apple.Safari.savedState
 
-# remove git user
-# sed -i '' -e '/[user]/,+2d' $HOME/.gitconfig
-
 # clean history
 :> .zhistory
