@@ -2,9 +2,12 @@
 
 rm -rf $HOME/Downloads/*
 rm -rf $HOME/Desktop/*
-rm -rf $HOME/workspace
-rm -rf $HOME/.ssh/*
 rm -rf $HOME/Documents/*
+rm -rf $HOME/workspace
+rm -rf $HOME/.ssh
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
 
 # cleanup Chrome
 rm -rf ~/Library/Application\ Support/Google
